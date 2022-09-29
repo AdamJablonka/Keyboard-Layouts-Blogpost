@@ -71,38 +71,40 @@ const Body = () => {
   );
   return (
     <div>
-      <div className="p-4">
-        <img className="pt-9 object-cover h-40 w-full" src={typing} />
-        <h1 className="text-center font-extrabold p-5 text-3xl text-transparent md:text-6xl bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
-          Keyboard Layouts
-        </h1>
-        <div>
-          <p className="text-md text-center">
-            An overview of the most popular ANSI keyboard layouts.
-          </p>
+      <img className="pt-9 object-cover h-40 w-full" src={typing} />
+      <article className="mx-auto max-w-3xl">
+        <div className="p-4">
+          <h1 className="text-center font-extrabold p-5 text-3xl text-transparent md:text-6xl bg-clip-text bg-gradient-to-r from-indigo-500 to-pink-500">
+            Keyboard Layouts
+          </h1>
+          <div>
+            <p className="text-md text-center">
+              An overview of the most popular ANSI keyboard layouts.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
-      <Item
-        title={"Full size layout"}
-        img={full}
-        bodyText={fullSizeText}
-        alt={"A diagram of a full sized keyboard"}
-      />
-      <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
-      <Item
-        title={"Tenkeyless layout (TKL)"}
-        img={tkl}
-        bodyText={tklText}
-        alt={"A diagram of a tenkeyless sized keyboard"}
-      />
-      <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
-      <Item
-        title={"Sixty percent layout (60%)"}
-        img={sixty}
-        bodyText={sixtyText}
-        alt={"A diagram of a 60% sized keyboard"}
-      />
+        <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
+        <Item
+          title={"Full size layout"}
+          img={full}
+          bodyText={fullSizeText}
+          alt={"A diagram of a full sized keyboard"}
+        />
+        <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
+        <Item
+          title={"Tenkeyless layout (TKL)"}
+          img={tkl}
+          bodyText={tklText}
+          alt={"A diagram of a tenkeyless sized keyboard"}
+        />
+        <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
+        <Item
+          title={"Sixty percent layout (60%)"}
+          img={sixty}
+          bodyText={sixtyText}
+          alt={"A diagram of a 60% sized keyboard"}
+        />
+      </article>
     </div>
   );
 };
