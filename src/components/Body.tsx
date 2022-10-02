@@ -24,11 +24,11 @@ const Body = () => {
         <br />
         However a very functional layout for productivity, the size of the
         keyboard is something to consider. Generally when choosing a layout, the
-        size of your desk or where the keyboard will be used in a major factor
-        in how it will work for an induvidual. The Full-sized layout of this
-        keyboard will not save much room at all, generally out of all the
-        layouts on this list it will be the largest one, potentially double the
-        size of the other layouts on this list.
+        size of your desk or where the keyboard will be used is a major factor
+        in how it will work for an induvidual. The Full-sized layout keyboard
+        will not save much room at all, generally out of all the layouts on this
+        list it will be the largest one, potentially double the size of the
+        other layouts on this list.
       </p>
     </div>
   );
@@ -40,9 +40,9 @@ const Body = () => {
         and it's Full sized counterpart is that it is lacking the numpad.
         <br />
         The people that prefer this keyboard generally don't use the numberpad
-        or don't see the extra space that the numpad takes up as a worth while
-        sacrifice to have. For normal typers or anybody who does not use the
-        numberpad, the TKL layout is great.
+        or don't view the extra space that the numpad takes up as a worth while
+        sacrifice to have. For normal typers (or anybody who does not use the
+        numberpad), the TKL layout is great.
       </p>
     </div>
   );
@@ -50,22 +50,26 @@ const Body = () => {
     <div>
       <p>
         The Sixty percent layout is very popular first and foremost for it's
-        size. The size of the keyboard frees up so much desk space for the
-        typist and generally does not lose much functionality. The biggest gripe
+        size. The size of the keyboard frees up so much desk space for the user
+        and technically does not lose much functionality. The biggest gripe
         people have with this layout is the lack of arrow keys which are used
         daily for almost everyone, from media controls on a video player to
         moving the cursor on a text file.
         <br />
         <br />
         When using the 60% layout, generally there is not functionality lost.
-        The use of the Fn key can be used to access buttons otherwise lost on a
-        60% layout. These include the arrow keys, page up, page down, etc.
+        The Fn key can be used to access buttons otherwise lost on a 60% layout.
+        These include the arrow keys, page up, page down, etc. Many keyboards
+        nowadays have complete programmability, meaning you can have a second
+        layer of key's with the press of the FN key that is fully customizable
+        to the user!
         <br />
         <br />
         This layout is especially popular with FPS gamers nowadays, as mouse
         space for FPS competitive gaming is crucial for performance. The loss of
         keys from larger layouts does not affect gaming, generally due to the
-        limited amount of keys one hand can press.
+        limited amount of keys one hand can press, all while the limited amount
+        of keys that are used for a majority of games released now adays.
       </p>
     </div>
   );
