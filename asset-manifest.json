@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Keyboard-Layouts-Blogpost/static/css/main.5b7461dd.css",
-    "main.js": "/Keyboard-Layouts-Blogpost/static/js/main.cdddc5bc.js",
+    "main.css": "/Keyboard-Layouts-Blogpost/static/css/main.4982f5db.css",
+    "main.js": "/Keyboard-Layouts-Blogpost/static/js/main.a1fc838c.js",
     "static/media/typing.gif": "/Keyboard-Layouts-Blogpost/static/media/typing.6c37ae278089660a124e.gif",
     "static/media/full.png": "/Keyboard-Layouts-Blogpost/static/media/full.b194345ea18849a562af.png",
     "index.html": "/Keyboard-Layouts-Blogpost/index.html",
-    "main.5b7461dd.css.map": "/Keyboard-Layouts-Blogpost/static/css/main.5b7461dd.css.map",
-    "main.cdddc5bc.js.map": "/Keyboard-Layouts-Blogpost/static/js/main.cdddc5bc.js.map"
+    "main.4982f5db.css.map": "/Keyboard-Layouts-Blogpost/static/css/main.4982f5db.css.map",
+    "main.a1fc838c.js.map": "/Keyboard-Layouts-Blogpost/static/js/main.a1fc838c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b7461dd.css",
-    "static/js/main.cdddc5bc.js"
+    "static/css/main.4982f5db.css",
+    "static/js/main.a1fc838c.js"
   ]
 }
