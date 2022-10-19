@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCarousel from "./ImageCarousel";
 import Item from "./Item";
 import full from "./images/full.png";
 import tkl from "./images/tkl.png";
@@ -86,6 +87,9 @@ const Body = () => {
               An overview of the most popular ANSI keyboard layouts.
             </p>
           </div>
+        </div>
+        <div className="flex justify-center">
+          <ImageCarousel />
         </div>
         <div className="w-full mb-5 mt-5 p-0.5 bg-gradient-to-r from-indigo-500 to-pink-500 flex justify-center"></div>
         <Item
