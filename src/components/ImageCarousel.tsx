@@ -40,11 +40,11 @@ const ImageCarousel = () => {
           <BsArrowRightSquare onClick={() => changePhotoRight()} />
         </p>
       </div>
-      <div className="flex col justify-center text-4xl">
-        <p className="ml-5 md:opacity-0 opacity-100 hover:text-white cursor-pointer transition easy-in-out duration-100 hover:scale-105">
+      <div className="flex col justify-center text-4xl gap-2">
+        <p className="md:opacity-0 opacity-100 hover:text-white cursor-pointer transition easy-in-out duration-100 hover:scale-105">
           <BsArrowLeftSquare onClick={() => changePhotoRight()} />
         </p>
-        <p className="ml-5 md:opacity-0 opacity-100 hover:text-white cursor-pointer transition easy-in-out duration-100 hover:scale-105">
+        <p className="md:opacity-0 opacity-100 hover:text-white cursor-pointer transition easy-in-out duration-100 hover:scale-105">
           <BsArrowRightSquare onClick={() => changePhotoRight()} />
         </p>
       </div>
