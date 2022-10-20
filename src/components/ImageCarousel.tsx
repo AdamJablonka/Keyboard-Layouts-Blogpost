@@ -27,7 +27,7 @@ const ImageCarousel = () => {
         id="wrapper"
         className="p-10 h-96 text-4xl flex col justify-center max-w-3xl"
       >
-        <p className="m-auto md:opacity-100 transition easy-in-out duration-100 hover:scale-105 hover:text-white cursor-pointer mr-2 display:none">
+        <p className="m-auto md:opacity-100 transition easy-in-out duration-100 hover:scale-105 hover:text-white cursor-pointer mr-2 opacity-0">
           <BsArrowLeftSquare onClick={() => changePhotoLeft()} />
         </p>
         <div className="m-2 flex shrink-0 object-contain justify-center border border-indigo-500 rounded-xl w-full md:w-full">
@@ -36,7 +36,7 @@ const ImageCarousel = () => {
             className="shrink-0 container m-5 p-3 rounded-md object-contain select-none"
           ></img>
         </div>
-        <p className="md:m-auto md:ml-2 md:opacity-100 transition easy-in-out duration-100 hover:scale-105 display:none hover:text-white cursor-pointer">
+        <p className="md:m-auto md:ml-2 md:opacity-100 transition easy-in-out duration-100 hover:scale-105 hover:text-white cursor-pointer opacity-0">
           <BsArrowRightSquare onClick={() => changePhotoRight()} />
         </p>
       </div>
